@@ -1,21 +1,13 @@
 # OpentelemetryDemo
 
-**TODO: Add description**
+This is a sample application that demo how to setup a basic Elixir application
+with `opentelemetry-api` and `opentelemetry`.
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `opentelemetry_demo` to your list of dependencies in `mix.exs`:
+## Getting Stated
 
-```elixir
-def deps do
-  [
-    {:opentelemetry_demo, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/opentelemetry_demo](https://hexdocs.pm/opentelemetry_demo).
+1. Run `docker-compose up`.
+2. Visit Zipkin at localhost:9411 and hit `Run Query` to look the the sample trace.
+3. Visit Jaeger UI at localhost:16686 and click `Find Trace` to look at the sample
+   trace.
 
