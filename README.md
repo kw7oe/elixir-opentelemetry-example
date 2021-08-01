@@ -1,8 +1,15 @@
+# Archived
+
+Archived as it is merge to [`opentelemetry-beam/opentelemetry-examples`](https://github.com/opentelemetry-beam/opentelemetry-examples).
+
+Refer to https://github.com/opentelemetry-beam/opentelemetry-examples/tree/master/basic_elixir instead
+
+--- 
+
 # OpentelemetryDemo
 
 This is a sample application that demo how to setup a basic Elixir application
 with `opentelemetry-api` and `opentelemetry`.
-
 
 ## Getting Stated
 
